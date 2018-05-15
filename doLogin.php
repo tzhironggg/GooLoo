@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
         //if record is found, store id and username into session
         if (mysqli_num_rows($result) == 1) {
             $row = mysqli_fetch_array($result);
-           
+           //havent fetch details
             
            
         } else {
